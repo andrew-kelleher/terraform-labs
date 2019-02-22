@@ -13,5 +13,5 @@ variable "tags" {
 
 variable "webapplocs" {
   description = "web app locations"
-  default = ["westeurope", "northeurope","uksouth","ukwest"]
+  type = "list"
 }
