@@ -10,3 +10,8 @@ variable "tags" {
         env     = "training"
     }
 }
+
+variable "webapplocs" {
+  description = "web app locations"
+  default = ["westeurope", "northeurope","uksouth","ukwest"]
+}
