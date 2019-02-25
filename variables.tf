@@ -1,3 +1,4 @@
+# Define our expected variables and default values
 variable "loc" {
     description = "Default Azure region"
     default     =   "WestEurope"
@@ -11,7 +12,7 @@ variable "tags" {
     }
 }
 
-variable "webapplocs" {
+variable "webapplocs" { # defining but not setting a value
   description = "web app locations"
   type = "list"
 }
